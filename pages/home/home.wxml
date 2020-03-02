@@ -1,0 +1,9 @@
+<!--pages/home/home.wxml-->
+<text>name:{{name}}</text>
+<view>age: {{age}}</view>
+
+<view wx:for="{{students}}">
+  {{item.name}}
+</view>
+<view>{{counter}}</view>
+<view size="mini" bindtap="handleBtnClick">+</view>
